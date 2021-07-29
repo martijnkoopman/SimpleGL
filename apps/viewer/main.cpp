@@ -1,3 +1,18 @@
+/*=========================================================================
+
+  Program:        Simple Graphics Library
+  Author:         Martijn Koopman
+  Co-author(s):
+
+  Copyright (c) Martijn Koopman 2021
+  All rights reserved.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.
+
+=========================================================================*/
+
 #include <simplegl/application.h>
 #include <simplegl/window.h>
 
