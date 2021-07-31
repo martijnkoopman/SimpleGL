@@ -25,9 +25,10 @@ endif()
 
 if(SIMPLEGL_BUILD_DOCUMENTATION)
     find_package(Doxygen REQUIRED dot)
+    set(DOXYGEN_OUTPUT_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/doc)
     doxygen_add_docs(
         documentation
         simplegl/include
         COMMENT "Generate Doxygen")
-	# TODO: Install by copy folder. install(DIRECTORY documentation)
+    install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/doc DESTINATION .)
 endif()
