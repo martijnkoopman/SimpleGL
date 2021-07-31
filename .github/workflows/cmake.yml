@@ -20,7 +20,7 @@ jobs:
 
     steps:
     - name: Install xorg-dev
-      run: sudo apt-get install xorg-dev
+      run: sudo apt-get install xorg-dev doxygen
       
     - uses: actions/checkout@v2
 
