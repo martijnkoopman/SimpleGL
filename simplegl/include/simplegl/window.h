@@ -16,11 +16,13 @@
 
 #include "simplegl_global.h"
 
-namespace simplegl {
+namespace simplegl
+{
 
 class WindowPrivate;
 
-class SIMPLEGL_EXPORT Window {
+class SIMPLEGL_EXPORT Window
+{
 public:
   Window();
 
@@ -29,7 +31,7 @@ public:
   void show();
 
 private:
-  WindowPrivate *m_pimpl;
+  WindowPrivate* m_pimpl;
 };
 
 } // namespace simplegl

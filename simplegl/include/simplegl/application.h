@@ -16,18 +16,29 @@
 
 #include "simplegl_global.h"
 
-namespace simplegl {
+namespace simplegl
+{
 
 class ApplicationPrivate;
 
-class SIMPLEGL_EXPORT Application {
+/**
+ * @brief The Application class
+ *
+ * @example viewer.cpp
+ */
+class SIMPLEGL_EXPORT Application
+{
 public:
   Application();
 
+  /**
+   * @brief initialized
+   * @return True if initialized, False on error.
+   */
   bool initialized() const;
 
 private:
-  ApplicationPrivate *m_pimpl;
+  ApplicationPrivate* m_pimpl;
 };
 
 } // namespace simplegl

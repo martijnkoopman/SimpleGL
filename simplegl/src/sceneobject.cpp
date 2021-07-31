@@ -1,6 +1,7 @@
 #include "simplegl/sceneobject.h"
 
-namespace simplegl {
+namespace simplegl
+{
 
 SceneObject::SceneObject() {}
 

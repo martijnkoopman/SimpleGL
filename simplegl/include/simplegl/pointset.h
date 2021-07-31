@@ -3,9 +3,11 @@
 
 #include "simplegl_global.h"
 
-namespace simplegl {
+namespace simplegl
+{
 
-class SIMPLEGL_EXPORT PointSet {
+class SIMPLEGL_EXPORT PointSet
+{
 public:
   PointSet();
 };

@@ -17,7 +17,8 @@
 #define GLFW_INCLUDE_NONE
 #include <GLFW/glfw3.h>
 
-namespace simplegl {
+namespace simplegl
+{
 
 class WindowPrivate
 {
@@ -25,13 +26,13 @@ public:
   WindowPrivate();
   ~WindowPrivate();
 
-  GLFWwindow *glfwWindow() const;
+  GLFWwindow* glfwWindow() const;
 
   bool initialized() const;
   void show();
 
 private:
-  GLFWwindow *m_glfwWindow;
+  GLFWwindow* m_glfwWindow;
 };
 
 } // namespace simplegl

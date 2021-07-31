@@ -1,7 +1,8 @@
 #ifndef SIMPLEGL_SCENEOBJECT_H
 #define SIMPLEGL_SCENEOBJECT_H
 
-namespace simplegl {
+namespace simplegl
+{
 
 class SceneObject
 {

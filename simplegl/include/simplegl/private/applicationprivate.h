@@ -14,7 +14,8 @@
 #ifndef SIMPLEGL_APPLICATIONPRIVATE_H
 #define SIMPLEGL_APPLICATIONPRIVATE_H
 
-namespace simplegl {
+namespace simplegl
+{
 
 class ApplicationPrivate
 {

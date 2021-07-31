@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Options
 set(SIMPLEGL_BUILD_APPS OFF CACHE BOOL "Build application.")
 set(SIMPLEGL_BUILD_DOCUMENTATION OFF CACHE BOOL "Build documentation.")
+set(SIMPLEGL_BUILD_EXAMPLES OFF CACHE BOOL "Build examples.")
 set(SIMPLEGL_BUILD_TESTS OFF CACHE BOOL "Build tests.")
 
 add_subdirectory(thirdparty EXCLUDE_FROM_ALL)
@@ -21,6 +22,10 @@ endif()
 if(SIMPLEGL_BUILD_TESTS)
     enable_testing()
     add_subdirectory(simplegl/test)
+endif()
+
+if(SIMPLEGL_BUILD_EXAMPLES)
+    add_subdirectory(examples)
 endif()
 
 if(SIMPLEGL_BUILD_DOCUMENTATION)

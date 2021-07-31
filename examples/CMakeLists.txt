@@ -1,0 +1,6 @@
+file(GLOB sources *.cpp)
+foreach(source ${sources})
+	get_filename_component(target_name ${source} NAME_WE)
+	add_executable(example_${target_name} ${source})
+        target_link_libraries(example_${target_name} simplegl)
+endforeach()

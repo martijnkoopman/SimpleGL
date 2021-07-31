@@ -1,6 +1,7 @@
 #include "simplegl/pointsetrenderer.h"
 
-namespace simplegl {
+namespace simplegl
+{
 
 PointSetRenderer::PointSetRenderer() {}
 

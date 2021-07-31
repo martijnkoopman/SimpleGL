@@ -15,10 +15,17 @@
 
 #include "simplegl/private/applicationprivate.h"
 
-namespace simplegl {
+namespace simplegl
+{
 
-Application::Application() : m_pimpl(new ApplicationPrivate) {}
+Application::Application()
+  : m_pimpl(new ApplicationPrivate)
+{
+}
 
-bool Application::initialized() const { return m_pimpl->initialized(); }
+bool Application::initialized() const
+{
+  return m_pimpl->initialized();
+}
 
 } // namespace simplegl

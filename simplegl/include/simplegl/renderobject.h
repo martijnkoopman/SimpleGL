@@ -1,7 +1,8 @@
 #ifndef SIMPLEGL_RENDEROBJECT_H
 #define SIMPLEGL_RENDEROBJECT_H
 
-namespace simplegl {
+namespace simplegl
+{
 
 class RenderObject
 {

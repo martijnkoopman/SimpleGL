@@ -3,9 +3,11 @@
 
 #include "simplegl_global.h"
 
-namespace simplegl {
+namespace simplegl
+{
 
-class SIMPLEGL_EXPORT PointSetRenderer {
+class SIMPLEGL_EXPORT PointSetRenderer
+{
 public:
   PointSetRenderer();
 };

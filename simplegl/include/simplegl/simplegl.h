@@ -16,7 +16,8 @@
 
 #include "simplegl_global.h"
 
-namespace simplegl {
+namespace simplegl
+{
 
 class SIMPLEGL_EXPORT SimpleGL
 {

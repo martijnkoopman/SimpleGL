@@ -3,12 +3,19 @@
 
 #include "simplegl_global.h"
 
-namespace simplegl {
+#include "renderobject.h"
 
-class SIMPLEGL_EXPORT Renderer {
+namespace simplegl
+{
+
+class SIMPLEGL_EXPORT Renderer
+{
 public:
-  Renderer(const RenderObject *renderObject)
-      : m_renderObject(renderObject), m_valid(false) {}
+  Renderer(const RenderObject* renderObject)
+    : m_renderObject(renderObject)
+    , m_valid(false)
+  {
+  }
 
   virtual ~Renderer() = default;
 
@@ -23,7 +30,7 @@ public:
   /// Get the render object (by const reference)
   ///
   /// \return Render object
-  const RenderObject &renderObject() const { return *m_renderObject; }
+  const RenderObject& renderObject() const { return *m_renderObject; }
 
   /// Render the render object.
   ///
@@ -32,10 +39,10 @@ public:
   /// \param[in] camera Camera
   /// \param[in] width Image width
   /// \param[in] height Image height
-  virtual void render(Camera *camera, const Vector2i &size) = 0;
+  // virtual void render(Camera* camera, const Vector2i& size) = 0;
 
 protected:
-  const RenderObject *m_renderObject;
+  const RenderObject* m_renderObject;
   bool m_valid;
 };
 

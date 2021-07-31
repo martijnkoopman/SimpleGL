@@ -1,9 +1,11 @@
 #ifndef SIMPLEGL_POINTSETRENDERERPRIVATE_H
 #define SIMPLEGL_POINTSETRENDERERPRIVATE_H
 
-namespace simplegl {
+namespace simplegl
+{
 
-class PointSetRendererPrivate {
+class PointSetRendererPrivate
+{
 public:
   PointSetRendererPrivate();
 };

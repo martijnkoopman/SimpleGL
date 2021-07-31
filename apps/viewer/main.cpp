@@ -21,12 +21,14 @@
 int main()
 {
   simplegl::Application app;
-  if (!app.initialized()) {
+  if (!app.initialized())
+  {
     std::cerr << "Failed to initialize app." << std::endl;
   }
 
   simplegl::Window window;
-  if (!window.initialized()) {
+  if (!window.initialized())
+  {
     std::cerr << "Failed to initialize window." << std::endl;
   }
 
