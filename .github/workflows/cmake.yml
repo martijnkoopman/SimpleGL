@@ -19,8 +19,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Install libxrandr-dev
-      run: sudo apt-get install libxrandr-dev libxinerama-dev
+    - name: Install xorg-dev
+      run: sudo apt-get install xorg-dev
+      # libxrandr-dev libxinerama-dev libxcursor-dev
       
     - uses: actions/checkout@v2
 
