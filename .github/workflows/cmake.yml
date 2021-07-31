@@ -35,7 +35,7 @@ jobs:
       run: ctest -C ${{env.BUILD_TYPE}}
       
     - name: Install
-      run: cmake --install . --prefix ${{github.workspace}}/install
+      run: cmake --install ${{github.workspace}}/build --prefix ${{github.workspace}}/install
       
       # Deploy / package
       
