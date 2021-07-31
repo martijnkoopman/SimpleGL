@@ -19,6 +19,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Install libxrandr-dev
+      run: apt-get install libxrandr-dev
+      
     - uses: actions/checkout@v2
 
     - name: Configure CMake
