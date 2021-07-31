@@ -14,12 +14,13 @@
 #ifndef SIMPLEGL_WINDOW_H
 #define SIMPLEGL_WINDOW_H
 
+#include "simplegl_global.h"
+
 namespace simplegl {
 
 class WindowPrivate;
 
-class Window
-{
+class SIMPLEGL_EXPORT Window {
 public:
   Window();
 

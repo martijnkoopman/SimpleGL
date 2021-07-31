@@ -14,11 +14,13 @@
 #ifndef SIMPLEGL_APPLICATION_H
 #define SIMPLEGL_APPLICATION_H
 
+#include "simplegl_global.h"
+
 namespace simplegl {
 
 class ApplicationPrivate;
 
-class Application {
+class SIMPLEGL_EXPORT Application {
 public:
   Application();
 

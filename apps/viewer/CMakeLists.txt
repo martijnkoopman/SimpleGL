@@ -8,3 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(viewer main.cpp)
 
 target_link_libraries(viewer simplegl)
+
+install(TARGETS viewer)
