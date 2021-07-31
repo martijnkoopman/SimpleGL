@@ -1,4 +1,5 @@
-# SimpleGL
+# SimpleGL ![example workflow](https://github.com/martijnkoopman/SimpleGL/actions/workflows/cmake.yml/badge.svg)
+
 Simple Graphics Library
 
 ## Usage
