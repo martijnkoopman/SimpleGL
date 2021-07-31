@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['window_8',['Window',['../classsimplegl_1_1Window.html',1,'simplegl']]],
-  ['windowprivate_9',['WindowPrivate',['../classsimplegl_1_1WindowPrivate.html',1,'simplegl']]]
+  ['renderer_19',['Renderer',['../classsimplegl_1_1Renderer.html',1,'simplegl']]],
+  ['renderobject_20',['RenderObject',['../classsimplegl_1_1RenderObject.html',1,'simplegl']]]
 ];
