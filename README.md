@@ -15,3 +15,6 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 ```
+
+# Getting started
+Link to [Getting started](GETTING_STARTED.md)
