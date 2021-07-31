@@ -44,7 +44,7 @@ jobs:
       with:
         github_token: ${{secrets.GITHUB_TOKEN}}
         publish_branch: gh-pages
-        publish_dir: ${{github.workspace}}/install/doc
+        publish_dir: ${{github.workspace}}/install/doc/html
 
 
       
